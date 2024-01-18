@@ -1,0 +1,772 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: rg;
+    src: url(../fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+.container {
+    width: 1362px;
+    height: 3642px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.box img {
+    margin-top: 44px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.box1 {
+    position: relative;
+    top: -20px;
+    left: 954px;
+
+}
+
+.box1 p {
+    display: inline;
+    margin-left: 30px;
+    color: rgb(179, 176, 176);
+    font-family: Fraunces 9pt;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.box1 p:hover {
+    cursor: pointer;
+    color: black;
+}
+
+header img {
+    flex-shrink: 0;
+    position: relative;
+    left: 40px;
+    top: 44px;
+
+}
+
+.box2 {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: serif;
+    font-family: rg;
+}
+
+@font-face {
+    font-family: rg;
+    src: url(../fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+.box2 h1 {
+    color: #FEFCF7;
+    font-family: Fraunces 9pt;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+    position: relative;
+    left: 164px;
+    top: -448px;
+
+}
+
+.box2 p {
+    width: 445px;
+    color: gray;
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    position: relative;
+    top: -400px;
+    left: 164px;
+}
+
+.box3 p {
+    width: 217px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background-color: #66D2CF;
+    border: solid #66D2CF;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: Fraunces 9pt;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px;
+    box-sizing: border-box;
+    position: relative;
+    top: -620px;
+    left: 164px;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.box3 :hover {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid white;
+}
+
+.box4 {
+    display: flex;
+    gap: 40px;
+    cursor: pointer;
+}
+
+.box5 img {
+    position: relative;
+    left: 115px;
+    transition: 1s;
+}
+
+.box5 h4 {
+    font-weight: 400;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: serif;
+    font-family: rg;
+    position: relative;
+    top: 70px;
+    left: 165px;
+    display: flex;
+    gap: 1000px;
+}
+
+
+@font-face {
+    font-family: rg;
+    src: url(../fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+.box5 p {
+    width: 255px;
+    color: #333D4B;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    position: relative;
+    top: 80px;
+    left: 115px;
+}
+
+.box6 {
+    width: 1280px;
+    height: 788px;
+    flex-shrink: 0;
+    background-color: #2C343E;
+    margin: 200px auto;
+}
+
+
+
+
+
+
+
+
+
+.container1 {
+    max-width: 1280px;
+    height: 788px;
+    background-color: #2C343E;
+    position: relative;
+    top: 200px;
+    left: 40px;
+    border-radius: 5px;
+}
+
+.content {
+    padding: 100px 85px 65px 85px;
+
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 86px;
+}
+
+.header_title {
+    color: #FEFCF7;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    margin-bottom: 32px;
+}
+
+
+.header_text {
+    color: #FEFCF7;
+    text-align: center;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 540px;
+}
+
+.card_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 382px 382px 382px;
+    grid-gap: 30px;
+}
+
+.card {
+    border-radius: 8px;
+    background: #0E8784;
+    transition: .5s;
+}
+
+.card:hover {
+    cursor: pointer;
+    background-color: #0A6260;
+    transition: .5s;
+}
+
+.cards {
+    padding: 72px 48px 48px 48px;
+    text-align: center;
+}
+
+
+.card_images {
+    width: 71px;
+    height: 71px;
+    margin-bottom: 56px;
+    position: relative;
+    left: -10px;
+}
+
+
+.card_title {
+    color: #FEFCF7;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+.card_text {
+    color: #FEFCF7;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.how p {
+    width: 309.416px;
+    color: #83888F;
+    font-family: Fraunces 9pt;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    position: relative;
+    top: -650px;
+    left: 10px;
+}
+
+.how2 {
+    width: 1249.192px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: #FDD6BA;
+    position: relative;
+    top: -550px;
+
+}
+
+.how3 {
+    width: 1250px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -567px;
+    left: 15px;
+
+
+}
+
+.how4 {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid blue;
+
+}
+
+.how5 {
+    width: 1050px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -500px;
+    left: 15px;
+}
+
+.how6 {
+    width: 109.206px;
+    color: #FDD6BA;
+    font-family: Fraunces 9pt;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+}
+
+.how8 {
+    width: 309.416px;
+    color: #333D4B;
+    font-family: Fraunces 9pt;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px;
+    position: relative;
+    top: 50px;
+}
+
+.how9 {
+    width: 345.818px;
+    color: #333D4B;
+    font-family: Barlow;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    position: relative;
+    top: 100px;
+}
+
+.box10 p {
+    width: 217px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background-color: #66D2CF;
+    border: solid #66D2CF;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: Fraunces 9pt;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px;
+    box-sizing: border-box;
+    position: relative;
+    top: -50px;
+    left: 15px;
+    cursor: pointer;
+    position: relative;
+    transition-duration: 1s;
+
+}
+
+.box10 :hover {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid white;
+}
+
+.footer {
+    width: 1280px;
+    height: 120px;
+    flex-shrink: 0;
+    background: #2C343E;
+    position: relative;
+    top: 100px;
+}
+
+.footer img {
+    background-color: #2C343E;
+    color: #2C343E;
+}
+
+.footer2 {
+    display: flex;
+    width: 500px;
+    height: 15px;
+    padding-right: 1px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 33px;
+    flex-shrink: 0;
+    color: #FEFCF7;
+    position: relative;
+    top: 20px;
+    left: 400px;
+
+}
+
+.footer3:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.men {
+    width: 120px;
+    height: 24px;
+    flex-shrink: 0;
+    display: flex;
+    position: relative;
+    left: 1070px;
+    top: 5px;
+
+}
+
+.fa-brands {
+    width: 50px;
+    height: 50px;
+    color: #FEFCF7;
+}
+
+.fa-brands:hover {
+    color: #FDD6BA;
+}
+
+
+@media only screen and (max-width: 1340px) {
+    .box img {
+        margin-left: 20px;
+    }
+
+    header img {
+        position: relative;
+        left: 20px;
+    }
+
+    .box1 {
+        position: relative;
+        left: 934px;
+
+    }
+
+    .box4 {
+        position: relative;
+        left: -20px;
+    }
+
+    .container1 {
+        position: relative;
+        left: 20px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .box img {
+        margin-left: 15px;
+    }
+
+    header img {
+        position: relative;
+        left: 15px;
+    }
+
+    .box1 {
+        position: relative;
+        left: 930px;
+
+    }
+
+    .box4 {
+        position: relative;
+        left: -15px;
+    }
+
+    .container1 {
+        position: relative;
+        left: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    .box img {
+        margin-left: 100px;
+    }
+
+    .box1 {
+        position: relative;
+        left: 840px;
+
+    }
+
+    .container1 {
+        width: 1100px;
+        height: 900px;
+        position: relative;
+        left: 100px;
+    }
+
+    header img {
+        width: 1100px;
+        position: relative;
+        left: 100px;
+        top: 44px;
+
+    }
+
+    .box5 img {
+        width: 255px;
+        height: 193px;
+        position: relative;
+        left: 115px;
+        transition: 1s;
+    }
+
+    .content {
+        padding: 70px 20px 40px 20px;
+    }
+
+    .cards {
+        padding: 40px 10px 10px 10px;
+    }
+
+    .card_content {
+        grid-gap: 10px;
+    }
+
+
+
+
+    .container {
+        height: 4500px;
+    }
+
+    .content {
+        padding: 56px 50px;
+    }
+
+    .header {
+        margin-bottom: 70px;
+    }
+
+    .header_title {
+        font-size: 32px;
+        line-height: 48px;
+        margin-bottom: 24px;
+    }
+
+    .header_text {
+        line-height: 25px;
+        font-size: 15px;
+    }
+
+    .card_content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 180px 180px 180px;
+        grid-gap: 24px;
+    }
+
+    .cards {
+        padding: 20px 100px 200px 120px;
+    }
+
+
+    .card_images {
+        width: 55px;
+        height: 56px;
+        cursor: pointer;
+        margin-bottom: 80px;
+    }
+
+
+    .card_title {
+        margin-bottom: 16px;
+    }
+
+    .card_text {
+        font-size: 15px;
+    }
+
+
+    .cards {
+        text-align: start;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 55px;
+    }
+
+    .box4 {
+        display: block;
+        left: 70px;
+    }
+
+    .box5 h4 {
+        position: relative;
+        top: -120px;
+        left: 600px;
+    }
+
+    .box5 p {
+        width: 300px;
+        position: relative;
+        top: -80px;
+        left: 550px;
+        text-align: left;
+    }
+
+    .box3 {
+        position: relative;
+        top: -820px;
+    }
+
+    .how {
+        position: relative;
+        top: 700px;
+    }
+
+    .how2 {
+        width: 1100px;
+        height: 2px;
+        margin: 0 auto;
+        background-color: #FDD6BA;
+        position: relative;
+        top: 150px;
+
+    }
+
+    .how3 {
+        width: 1100px;
+        position: relative;
+        top: 135px;
+        left: -1px;
+
+
+
+    }
+
+    .how5 {
+        width: 900px;
+        justify-content: space-between;
+        position: relative;
+        top: 200px;
+        left: 15px;
+    }
+
+    .box10 {
+        position: relative;
+        top: 650px;
+    }
+
+    .footer {
+        width: 1100px;
+        height: 400px;
+        flex-shrink: 0;
+        background: #2C343E;
+        position: relative;
+        top: 750px;
+    }
+
+    .footer img {
+        width: 400px;
+        position: relative;
+        top: 70px;
+        left: 350px;
+
+    }
+
+    .footer2 {
+        gap: 100px;
+        position: relative;
+        top: 100px;
+        left: 310px;
+
+    }
+
+    .men {
+        gap: 30px;
+        position: relative;
+        left: 450px;
+        top: 170px;
+
+
+
+}
+.how9{
+    width: 250px;
+
+}
+
+}
+@media only screen and (max-width: 324px){
+    header img{
+        width: 1000px;
+        position: relative;
+        left: 150px;
+    
+
+    }
+    .box img{
+        position: relative;
+        left: 50px;
+    }
+    .box1{
+        position: relative;
+        left: 790px;
+    }
+    .container1{
+        width: 1000px;
+        position: relative;
+        left: 150px;
+    }
+    .how2{
+        width: 1000px;
+    }
+    .how3{
+        width: 1000px;
+    }
+    .how5{
+        width: 850px;
+    }
+    .footer{
+        width: 1000px;
+    }
+    .footer img{
+        position: relative;
+        left: 320px;
+    }
+    .box2 h1 {
+        position: relative;
+        left: 200px;
+        top: -410px;
+    
+    }
+    .box2 p{
+        position: relative;
+        left: 200px;
+        top:-380px;
+    }
+    .box3{
+        position: relative;
+        left: 50px;
+    }
+
+    
+}
